@@ -21,11 +21,11 @@
                       
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="./index.html"><h5>Home</h5><span class="sr-only"></span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><h5>Tree</h5></a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="treeshop.html"><h5>Tree</h5></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#"><h5>Related Product</h5></a>
@@ -61,36 +61,85 @@
                 <ul class="category-nav">
                     <li class="category-nav-items">
                         <div class="category-nav-item">
-                            <p>Tree Category
-                            <select>
-                                <option value="any">Any</option>
-                                <option value="fruit tree">Fruit tree</option>
-                                <option value="hedge">Hedge</option>
-                                <option value="evergreen">Evergreen</option>
-                                <option value="nz native">NZ native</option>
-                                <option value="gum green">Gum green</option>
-                                <option value="palm tree">Palm tree</option>
-                                <option value="hardwood">Hardwood</option>
-                            </select>
-                        </p>
+                            <p>Tree Category</br>
+                                <select class="category-bar">
+                                    <option value="any">Any</option>
+                                    <option value="fruit tree">Fruit tree</option>
+                                    <option value="hedge">Hedge</option>
+                                    <option value="evergreen">Evergreen</option>
+                                    <option value="nz native">NZ native</option>
+                                    <option value="gum green">Gum green</option>
+                                    <option value="palm tree">Palm tree</option>
+                                    <option value="hardwood">Hardwood</option>
+                                </select>
+                            </p>
                         </div>
                         <div class="category-nav-item">
-                            <p>Soil Drainage</p>
+                            <p class="align-middle">Soil Drainage</br>
+                                <select class="category-bar">
+                                    <option value="any">Any</option>
+                                    <option value="fast">Fast</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="slow">Slow</option>
+                                </select>
+                            </p>
                         </div>
                         <div class="category-nav-item">
-                            <p>Sunshine Require</p>
+                            <p>Sunshine Require</br>
+                                <select class="category-bar">
+                                    <option value="any">Any</option>
+                                    <option value="sunny">Sunny</option>
+                                    <option value="meduim">Medium</option>
+                                    <option value="shade">Shade</option>
+                                </select>
+                            </p>
                         </div>
                         <div class="category-nav-item">
-                            <p>Maintenance Requirements</p>
+                            <p>Maintenance Requirements</br>
+                                <select class="category-bar">
+                                    <option value="any">Any</option>
+                                    <option value="high">High</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="slow">Slow</option>
+                                </select>
+                            </p>
                         </div>
                         <div class="category-nav-item">
-                            <p>Max height of mature tree</p>
+                            <p>Max height of mature tree</br>
+                                <select class="category-bar">
+                                    <option value="any">Any</option>
+                                    <option value="lessthan1meter">< 1m</option>
+                                    <option value="onetotwometer">1 - 2m</option>
+                                    <option value="twotothreemeter">2 - 3m</option>
+                                    <option value="greaterthanthreemeter">> 3m</option>
+                                </select>
+                            </p>
                         </div>
                         <div class="category-nav-item">
-                            <p>Growth Rate</p>
+                            <p>Growth Rate
+                                <select class="category-bar">
+                                    <option value="any">Any</option>
+                                    <option value="fast">Fast</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="slow">Slow</option>
+                                </select>
+                            </p>
                         </div>
                         <div class="category-nav-item">
-                            <p>Price Range</p>
+                            <p>Price Range</br>
+                                <form>
+                                    <div class="price-form">
+                                        <p>
+                                            <input type="text" id="price-one" placeholder="Any">
+                                        to
+                                            <input type="text" id="price-two" placeholder="Any">
+                                        </p>
+                                    </div>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="category-nav-submit">
+                            <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
                     </li>
                 </ul>

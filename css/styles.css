@@ -15,7 +15,7 @@ body{
     display:flex;
 }
 
-.vertical-center {
+.vertical-center{
     min-height: 100%;
     min-height: 100vh;
     display: flex;
@@ -42,7 +42,7 @@ img.png{
 }
 
 .all-category{
-    width: 240px;
+    width: 160px;
     flex: 0 1 200px;
     position: relative;
 }
@@ -56,7 +56,7 @@ img.png{
     color: white;
     border-top: 1px solid white;
     line-height: 40px;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .category-nav{
@@ -70,13 +70,25 @@ img.png{
 }
 
 .category-nav .category-nav-item{
-    height: 60px;
-    padding: 15px 20px;
-    line-height: 40px;
+    height: 100px;
+    padding: 10px 20px;
+    line-height: 20px;
     border-top: 1px solid white;
     border-bottom: 1px solid white; 
 }
 
 .category-nav .category-nav-item>p{
     font-weight: 500;
+}
+
+.category-bar{
+    margin-top: 10px;
+}
+
+.price-form>p>input{
+    width: 40px;
+}
+
+.category-nav-submit{
+    margin-top: 20px;
 }
