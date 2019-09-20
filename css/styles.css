@@ -1,0 +1,82 @@
+body{
+    background-color: #4B4B4B;
+    color: white;
+}
+
+.pat-nav{
+    background-color: black;
+}
+
+.jumbotron{
+    background: url('../img/hedge.jpg') center center;
+    background-size: cover;
+    color: white;
+    height:920px;
+    display:flex;
+}
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+img.display{
+    width: 400px;
+    height: 600px;
+}
+
+img.png{
+    width: 25px;
+    height: 25px;
+    filter: invert(100%);
+}
+.carouselslide{
+    width: 400;
+    height: 600px;
+}
+
+.pagination{
+    text-align: center;
+}
+
+.all-category{
+    width: 240px;
+    flex: 0 1 200px;
+    position: relative;
+}
+
+.all-category>span{
+    display: block;
+    height: 50px;
+    background-color: black;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    border-top: 1px solid white;
+    line-height: 40px;
+    padding-left: 30px;
+}
+
+.category-nav{
+    padding: 0;
+    height: 1000px;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.category-nav .category-nav-item{
+    height: 60px;
+    padding: 15px 20px;
+    line-height: 40px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white; 
+}
+
+.category-nav .category-nav-item>p{
+    font-weight: 500;
+}
