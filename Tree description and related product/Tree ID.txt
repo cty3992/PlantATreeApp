@@ -1,13 +1,19 @@
 Tree ID: Evergreen-1
 Tree catergory:Evergreen-titoki 
-$115(1.5-2m) 
-$250(2.5m)
+PRICE :$115(1.5-2m) 
+PRICE :PRICE :$250(2.5m)
 
 Tree ID: NZ_Native-1
-Tree catergory:NZ_Native-1 kauri
-$120(2.5m)
+Tree catergory:NZ_Native kauri
+PRICE :$120(2.5m)
 
 Tree ID: PALM-1
-Tree catergory:PALM-1 Queenpalm
-$120(2-2.5m) 
+Tree catergory:PALM Queenpalm
+PRICE :$120(2-2.5m) 
 
+Tree ID:APPLE-2
+Tree catergory:Fruit-BRAEBURN SEMI DWARF
+AVAILABILITY : UNAVAILABLE
+SUITABILITY: All
+PRICE : $120.00 (1.5-2m)
+Sweet and tangy eating. Good heavy cropper.
