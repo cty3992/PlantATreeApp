@@ -11,9 +11,19 @@ Tree ID: PALM-1
 Tree catergory:PALM Queenpalm
 PRICE :$120(2-2.5m) 
 
-Tree ID:APPLE-2
-Tree catergory:Fruit-BRAEBURN SEMI DWARF
+Tree ID:Fruit-1
+Tree catergory:Fruit-Apple1-ROYAL GALA (SEMI DWARF)
+AVAILABILITY : AVAILABLE
+SUITABILITY: All
+PRICE 1:$120.00 (2m)
+Sweet and juicy flavour,good crisp eating apple.
+Regular and reliable.
+
+Tree ID:Fruit-2
+Tree catergory:Fruit-Apple2-BRAEBURN SEMI DWARF
 AVAILABILITY : UNAVAILABLE
 SUITABILITY: All
 PRICE : $120.00 (1.5-2m)
 Sweet and tangy eating. Good heavy cropper.
+
+
